@@ -6,7 +6,6 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 1. Qual o comando para obter a versão instalada do Git?
   git version
 2. Qual o efeito da giexecução de cada um dos comandos abaixo?
-  
  * a. git help - 
     apresenta todos os comandos explicados(sem detalhes) que podem ser excutados no git 
   
@@ -95,7 +94,6 @@ mostra os dados da tag 3.4-gold
 32. Após executar **git add x.txt**, qual o efeito de **git reset HEAD x.txt**?
 caso o git checkout -- ax.txt tenha sido executado, desfaz a alteração do git add x.txt
 33. Após alterar o conteúdo de um arquivo committed em passo anterior, qual o efeito do comando **git checkout -- a.txt**?
-&nbsp
 desambingua a alteração
 34. Qual a diferença entre os comandos **git reset HEAD a.txt** e **git checkout -- a.txt**?
 Enquanto o git reset HEAD a.txt desfaz a adição do arquivo a.txt para o HEAD, o git checkout -- a.txt desambigua a alteração
