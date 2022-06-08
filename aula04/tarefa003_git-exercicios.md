@@ -4,31 +4,56 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 
 
 1. Qual o comando para obter a versão instalada do Git?
-2. Qual o efeito da execução de cada um dos comandos abaixo?
+  git version
+2. Qual o efeito da giexecução de cada um dos comandos abaixo?
   a. git help
+    apresenta todos os comandos explicados(sem detalhes) que podem ser excutados no git
   b. git help checkout
+    apresenta em uma guia as informações do comando checkout detalhado com exemplos
   c. git help merge
+    apresenta em uma guia as informações do comando merge detalhado com exemplos
   d. git init
+    cria um novo repositorio git(local)
   e. git add --all
+    Coloca todos arquivos (novos, modificados e removidos) no index/stage
   f. git add -u
+    Coloca no Stage apenas arquivos modificados e removidos
   g. git config -l
+     define os valores de configuração do Git no projeto de nível local
   h. git mv a.txt b.txt
+      move ou renomea o a.txt para b.txt
   i. git reset --hard
+      desfaz as alterações quaisquer alterações mesmo se estiverem pendentes
   j. git log -27
+      visualiza o historico de alterações da
 3. O fluxo “clássico” de interação com o Git é algo como “alterar um ou mais arquivos”, “acrescentar essas mudanças para serem contemplados no próximo commit” e, finalmente, executar um “commit”. Quais os comandos necessários para realizar os dois últimos “passos” desse fluxo?
+    git pull e git push
 4. Qual o comando deve ser executado para identificar o que foi alterado desde o último “commit”?
+    git status
 5. Em um dado repositório, arquivos simplesmente copiados para lá, ou seja, _untracked_, podem ser exibidos/identificados com que comando?
+    
 6. Qual o comando para efetuar um _commit_?
+    git commit -m "Menssagem"
 7. Qual o comando que devemos empregar para descartar mudanças ocorridas no arquivo teste.txt, por exemplo?
+    git clean
 8. O que deve ser feito para que um determinado diretório do seu repositório seja ignorado pelo Git? Faça uma busca por **.gitignore**.
+    git rm --cached -r /.metadata
 9. O que acontece se o seu repositório local for acidentalmente removido?
+    caso não tenha o repositorio remoto, o repositorio local é totalmente perdido 
 10. Como clonar um repositório remoto?
+    
 11. Em alguns cenários **git log** pode produzir extensos resultados. Se houver interesse em visualizar o histórico de um repositório, onde cada mudança é fornecida exatamente em uma única linha, qual o comando que deve ser empregado?
+
 12. Em qual arquivo o Git armazena informações de configuração empregadas por usuário?
+
 13. Qual o comando para criar um repositório local?
+    git init
 14. Qual o nome do diretório criado pelo Git quando se executa o comando **git init**?
+    o nome que está no diretorio 
 15. Qual o comando para adicionar todos os arquivos modificados? (Aqueles para os quais **git status** identificam como **modified**?)
+    git add -u
 16. O Git faz uso do valor de hash conhecido por SHA1. O que isto significa? Qual o propósito? O que é SHA1?
+    
 17. Qual a palavra para indicar o último _commit_ em vez do valor de hash SHA1 correspondente?
 18. Quando se cria dois arquivos usando um editor de texto qualquer e, na sequência, executamos o comando **git add -u**, os dois arquivos criados passam de _untracked_ para _new file_?
 19. Qual o efeito da execução dos dois comandos abaixo, nesta ordem, em um dado repositório?
@@ -54,11 +79,6 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 
 
 
-INSTRUÇÕES:
-
-1. No seu repositório pessoal, criar a pasta aula04.
-2. Commitar este arquivo respondido nesta pasta.
-3. A data limite para concluir esta tarefa é dia 07/06/2021, as 23h59min.
 
 
 
