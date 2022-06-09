@@ -40,7 +40,7 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 4. Qual o comando deve ser executado para identificar o que foi alterado desde o último “commit”?
     git status
 5. Em um dado repositório, arquivos simplesmente copiados para lá, ou seja, _untracked_, podem ser exibidos/identificados com que comando?
-    
+    git status -u
 6. Qual o comando para efetuar um _commit_?
     git commit -m "Menssagem"
 7. Qual o comando que devemos empregar para descartar mudanças ocorridas no arquivo teste.txt, por exemplo?
@@ -52,9 +52,9 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 10. Como clonar um repositório remoto?
     git clone URL
 11. Em alguns cenários **git log** pode produzir extensos resultados. Se houver interesse em visualizar o histórico de um repositório, onde cada mudança é fornecida exatamente em uma única linha, qual o comando que deve ser empregado?
-  
+  git log --pretty=oneline
 12. Em qual arquivo o Git armazena informações de configuração empregadas por usuário?
-
+  .git/config
 13. Qual o comando para criar um repositório local?
     git init
 14. Qual o nome do diretório criado pelo Git quando se executa o comando **git init**?
