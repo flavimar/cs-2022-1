@@ -11,7 +11,7 @@
 5. Qual o comando para se alternar para um branch de nome **experimento2**
 **git checkout nome-branch**
 6. Em um repositório com dois branches, **b1** e **b2**, onde b1 é o corrente, qual o efeito do comando **<code>git branch</code>**?
-**listas a branchs com b1 marcado como branch corrente(* b1)**
+**listas a branchs com b1 marcado como branch corrente(\* b1)**
 7. O que o comando **<code>git checkout -b</code>** nome faz?
 **alterna para uma branch**
 8. Qual a função do <code>**comando git branch -d teste</code>**?
