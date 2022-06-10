@@ -106,7 +106,8 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 24. No repositório **jqueryrepo**, criado no passo anterior, qual o efeito do comando
   **git shortlog -sne**?
 
-Apresenta um log resumido ordenado do autor com maior quantidade de commits para o menor mostrando a quantidade de commits, o nome do autor e o email
+**Apresenta um log resumido ordenado do autor com maior quantidade de commits para o menor mostrando a quantidade de commits, o nome do autor e o email**
+
 25. No repositório **jqueryrepo**, qual o efeito de **git remote -v**?
  
 **obtem a lista de referências remotas**
