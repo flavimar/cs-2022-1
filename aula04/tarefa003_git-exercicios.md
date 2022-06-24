@@ -90,20 +90,26 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 **git add -u**
 
 16. O Git faz uso do valor de hash conhecido por SHA1. O que isto significa? Qual o propósito? O que é SHA1?
-    
+
+**embaralha determinado arquivo, imagem ou texto para que seja gerado um conjunto de caracteres identificadores**    
+
 17. Qual a palavra para indicar o último _commit_ em vez do valor de hash SHA1 correspondente?
-    
+    **(HEAD -> main, origin/main, origin/HEAD, mais)**
 18. Quando se cria dois arquivos usando um editor de texto qualquer e, na sequência, executamos o comando **git add -u**, os dois arquivos criados passam de _untracked_ para _new file_?
     
 19. Qual o efeito da execução dos dois comandos abaixo, nesta ordem, em um dado repositório?
 **git reset --soft HEAD~1**
 **git reset --hard**
 20. Após o emprego de um ambiente integrado de desenvolvimento (IDE), é comum a criação de arquivos e diretórios. Qual o comando que podemos empregar para remover arquivos e diretórios _untracked_?
+**git clean -d -f**
 
 21. Qual o nome do arquivo no qual podemos inserir a indicação para o Git de arquivos e diretórios a serem ignorados?
-22. Quando se cria o arquivo _MinhaClasse.class_ em um dado diretório e desejamos que arquivos com a extensão .class, como neste caso, sejam ignorados por todos os membros de uma equipe que estão contribuindo com um dado projeto, como devemos proceder?
-23. jQuery é uma famosa biblioteca em JavaScript. Consulte detalhes em [jQuery](http://jquery.com). O repositório correspondente encontra-se em [gitRep](https://github.com/jquery/jquery.git). Faça o clone deste repositório.
-24. No repositório **jqueryrepo**, criado no passo anterior, qual o efeito do comando
+
+**.gitignore**
+
+23. Quando se cria o arquivo _MinhaClasse.class_ em um dado diretório e desejamos que arquivos com a extensão .class, como neste caso, sejam ignorados por todos os membros de uma equipe que estão contribuindo com um dado projeto, como devemos proceder?
+24. jQuery é uma famosa biblioteca em JavaScript. Consulte detalhes em [jQuery](http://jquery.com). O repositório correspondente encontra-se em [gitRep](https://github.com/jquery/jquery.git). Faça o clone deste repositório.
+25. No repositório **jqueryrepo**, criado no passo anterior, qual o efeito do comando
   **git shortlog -sne**?
 
 **Apresenta um log resumido ordenado do autor com maior quantidade de commits para o menor mostrando a quantidade de commits, o nome do autor e o email**
@@ -133,7 +139,10 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 **enviaria a tag 3.4-gold para o repositorio remoto**
 
 31. Após executar um commit, qual o efeito de **git commit --amend**?
-32. Após executar **git add x.txt**, qual o efeito de **git reset HEAD x.txt**?
+32. 
+**Abre um arquivo com a decrição do commit e do resultado que o commit teve**
+
+33. Após executar **git add x.txt**, qual o efeito de **git reset HEAD x.txt**?
 
 **caso o git checkout -- ax.txt tenha sido executado, desfaz a alteração do git add x.txt**
 
