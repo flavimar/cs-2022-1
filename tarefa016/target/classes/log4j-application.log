@@ -1,0 +1,4 @@
+2022-08-17 00:08:09 ERROR LogException:9 - / by zero
+java.lang.ArithmeticException: / by zero
+	at org.example.logging.LogException.divisao(LogException.java:7)
+	at org.example.logging.LogException.main(LogException.java:15)
